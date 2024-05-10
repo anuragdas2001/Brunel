@@ -112,7 +112,7 @@ export const Home = () => {
           </div>
           <hr className="-ml-96" />
         </div>
-        <img className="ml-10 mt-10" src="../../public/Union.png" alt="" />
+        <img className="ml-10 mt-10" src="Union.png" alt="" />
       </div>
     </>
   );
