@@ -6,17 +6,17 @@ export const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const [showCloseButton, setShowCloseButton] = useState(false);
+  // const [showCloseButton, setShowCloseButton] = useState(false);
 
   const handleProjects = () => {
     console.log("HandleProjects");
     navigate("/registration");
-    setShowCloseButton(true);
+    // setShowCloseButton(true);
   };
 
   const handleClose = () => {
     navigate("/");
-    setShowCloseButton(false);
+    // setShowCloseButton(false);
   };
 
   return (

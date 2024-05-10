@@ -1,14 +1,13 @@
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 export const Registration = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
   const [emailError, setEmailError] = useState("");
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   // Function to handle input change for name
-  const handleNameChange = (event) => {
+  const handleNameChange = (event:any) => {
     const newName = event.target.value;
     setName(newName);
     // Check if both name and email are not empty to enable submit button
@@ -16,7 +15,7 @@ export const Registration = () => {
   };
 
   // Function to handle input change for email
-  const handleEmailChange = (event) => {
+  const handleEmailChange = (event:any) => {
     const newEmail = event.target.value;
     setEmail(newEmail);
     // Check email format and set error message if invalid
@@ -32,22 +31,21 @@ export const Registration = () => {
   };
 
   // Function to validate email format
-  const validateEmail = (email) => {
+  const validateEmail = (email:string) => {
     // Regular expression for email validation
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
 
   // Function to handle form submission
-  const handleSubmit = (event) => {
+  const handleSubmit = (event:any) => {
     event.preventDefault();
     // Handle form submission logic here
-    navigate('/registration/success')
+    navigate("/registration/success");
   };
 
-  
   const handleClose = () => {
-    navigate('/')
+    navigate("/");
   };
 
   return (
@@ -105,7 +103,6 @@ export const Registration = () => {
           </form>
         </div>
       </div>
-      {/* <Outlet/> */}
     </>
   );
 };
