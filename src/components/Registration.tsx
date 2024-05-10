@@ -45,6 +45,7 @@ export const Registration = () => {
     navigate('/registration/success')
   };
 
+  
   const handleClose = () => {
     navigate('/')
   };
