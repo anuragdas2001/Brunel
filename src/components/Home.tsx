@@ -69,7 +69,7 @@ export const Home = () => {
             What's on your mind
           </h1>
           <h1 className="ms-10 manrope -mt-10  text-5xl">Ask Questions</h1>
-          <div className="float-right border-2 text-lg manrope -mt-14 border-blue-400">
+          <div className="float-right border-2 text-sm manrope -mt-14 border-blue-400">
             <div className=" border-2 mt-2 border-red-500">
               <span className="">Do you offer freelancers? </span>
               <span className="float-end">+</span>
