@@ -6,7 +6,7 @@ export const Home = () => {
   };
   return (
     <>
-      <div className="flex justify-center items-center mt-20 ">
+      <div className="flex justify-center items-center mt-10 ">
         <h1 className="covered-by-your-grace-regular text-green-400">
           Success Stories
         </h1>
