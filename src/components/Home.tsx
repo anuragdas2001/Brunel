@@ -63,19 +63,19 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="border-2 border-orange-600">
+      <div className="">
         <div className=" absolute h-[800px] w-100 p-10  mt-32  bg-[#E8EEE7] rounded-3xl">
           <h1 className="covered-by-your-grace-regular text-2xl m-10 ms-10 text-gray-400">
             What's on your mind
           </h1>
           <h1 className="ms-10 manrope -mt-10  text-3xl">Ask Questions</h1>
-          <div className="float-right border-2 text-xs manrope -mt-14 border-blue-400">
-            <div className=" border-2 mt-2 border-red-500">
+          <div className="float-right text-xs manrope -mt-14">
+            <div className=" mt-2">
               <span className="">Do you offer freelancers? </span>
               <span className="float-end">+</span>
             </div>
             <hr className="border-t border-gray-500 my-4" />
-            <div className="border-2 mt-2 border-red-500">
+            <div className="mt-2">
               <span className="">
                 Whats the guarantee that I will be satisfied <br /> with the
                 hired talent?{" "}
@@ -83,7 +83,7 @@ export const Home = () => {
               <span className="float-end">+</span>
             </div>
             <hr className="border-t border-gray-500 my-4" />
-            <div className="border-2 mt-2 border-red-500">
+            <div className="mt-2">
               <span className="">Can I hire multiple talents at once? </span>
               <span className="float-end">-</span>
               <br />
@@ -95,14 +95,14 @@ export const Home = () => {
               </span>
             </div>
             <hr className="border-t border-gray-500 my-4" />
-            <div className="border-2 mt-2 border-red-500">
+            <div className="mt-2">
               <span className="">
                 Why should I not go to an agency directly?
               </span>
               <span className="float-end">+</span>
             </div>
             <hr className="border-t border-gray-500 my-4" />
-            <div className="border-2 mt-2 border-red-500">
+            <div className="mt-2">
               <span className="">
                 Who can help me pick a right skillset <br /> and duration for me{" "}
               </span>
@@ -111,7 +111,7 @@ export const Home = () => {
           </div>
           <img className="absolute ml-10 mt-10" src="Union.png" alt="" />
           <br />
-          <div className="mt-96 h-32 relative  w-full border-2 border-violet-700">
+          <div className="mt-96 h-32 relative  w-full ">
             <footer className=" w-full  bg-[#F5F5F5] rounded-full text-white text-center py-4 bottom-0">
               <p className="text-black text-start mx-5 m-3 ">
                 © Talup 2023. All rights reserved
