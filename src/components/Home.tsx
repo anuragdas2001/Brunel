@@ -16,8 +16,8 @@ export const Home = () => {
           Every success journey <br /> we have encountered.
         </h1>
       </div>
-      <div className="float-end m-44 mt-10 manrope">
-        <h1>
+      <div className="float-end m-44 mt-20 font-extrabold  manrope">
+        <h1 className="text-xl">
           Enhance fortune 50 <br /> company's insights <br /> teams research{" "}
           <br /> capabilities
         </h1>
@@ -38,7 +38,7 @@ export const Home = () => {
       <div className="ml-32">
         <div>
           <img
-            className=" h-64 w-64 rounded-3xl flex justify-center items-center ml-20 mt-10"
+            className=" h-72 w-72 rounded-3xl flex justify-center items-center ml-20 mt-10"
             src="/image 32618.png"
             alt=""
           />
@@ -56,7 +56,7 @@ export const Home = () => {
             alt=""
           />
           <img
-            className="absolute h-48 w-48 -mt-24 float-right ml-52"
+            className="absolute h-48 w-60 -mt-24 float-right ml-52"
             src="/Frame 1261155512.png"
             alt=""
           />
