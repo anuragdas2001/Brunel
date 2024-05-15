@@ -64,7 +64,7 @@ export const Home = () => {
       </div>
 
       <div className="">
-        <div className=" absolute h-[800px] w-100 p-10  mt-32  bg-[#E8EEE7] rounded-3xl">
+        <div className=" absolute h-[800px] w-11/12 ml-10 p-10  mt-32 bg-[#E8EEE7] rounded-3xl">
           <h1 className="covered-by-your-grace-regular text-2xl m-10 ms-10 text-gray-400">
             What's on your mind
           </h1>
@@ -111,8 +111,8 @@ export const Home = () => {
           </div>
           <img className="absolute ml-10 mt-10" src="Union.png" alt="" />
           <br />
-          <div className="mt-96 h-32 relative  w-full ">
-            <footer className=" w-full  bg-[#F5F5F5] rounded-full text-white text-center py-4 bottom-0">
+          <div className="absolute mt-96 h-32 w-full -ml-10 ">
+            <footer className="bg-[#F5F5F5] rounded-xl text-white text-center py-4 bottom-0">
               <p className="text-black text-start mx-5 m-3 ">
                 © Talup 2023. All rights reserved
               </p>
