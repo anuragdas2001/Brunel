@@ -113,7 +113,7 @@ export const Home = () => {
           <br />
           <div className="mt-96 h-32 relative  w-full border-2 border-violet-700">
             <footer className=" w-full  bg-[#F5F5F5] rounded-full text-white text-center py-4 bottom-0">
-              <p className="text-black text-start mx-5 pt-4">
+              <p className="text-black text-start mx-5 m-3 ">
                 © Talup 2023. All rights reserved
               </p>
 

@@ -590,6 +590,10 @@ video {
   margin: 11rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -765,6 +769,14 @@ video {
 
 .me-5 {
   margin-inline-end: 1.25rem;
+}
+
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
