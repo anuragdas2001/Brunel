@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { Footer } from "./Footer";
 export const Home = () => {
   const navigate = useNavigate();
   const handleExploreMore = () => {
@@ -27,7 +28,10 @@ export const Home = () => {
           <img src="/Ellipse 10743.png" alt="" />
         </div>
         <div className="mt-10">
-          <button className="bg-black rounded-full text-white p-2" onClick={handleExploreMore}>
+          <button
+            className="bg-black rounded-full text-white p-2"
+            onClick={handleExploreMore}
+          >
             Explore More →
           </button>
         </div>
@@ -59,60 +63,70 @@ export const Home = () => {
           />
         </div>
       </div>
-      <div className="h-auto absolute w-100 p-10  mt-32  bg-[#E8EEE7] rounded-xl">
-        <h1 className="covered-by-your-grace-regular text-2xl m-10 ms-10 text-gray-400">
-          What's on your mind
-        </h1>
-        <h1 className="ms-10 manrope -mt-6 text-5xl">Ask Questions</h1>
-        {/* <hr /> */}
-        <div className="grid float-end p-20 -mt-10">
-          <div className="float-end ">
-            <h1 className=" -ml-96 -mt-20 manrope text-xl">
-              Do you offer freelancers?
-            </h1>
-            <h1 className="-mt-12 ml-20">+</h1>
-          </div>
-          <hr className="-ml-96 -mt-10" />
-          <div className="float-end ">
-            <h1 className=" -ml-96 mt-0 manrope text-xl">
-              Whats the gurantee that I will be satisfied <br /> with the hired
-              talent ?
-            </h1>
-            <h1 className="-mt-12 ml-20">+</h1>
-          </div>
-          <hr className="-ml-96" />
-          <div className="float-end ">
-            <h1 className=" -ml-96 manrope text-xl">
-              Can I hire multiple talents at once talent ?
-            </h1>
-            <h1 className="-mt-12 ml-20">-</h1>
-            <div>
-              <h1 className="text-xs -ml-96 text-gray-500">
-                if unhappy with a project,communicate with the freelancer, allow
-                for revisions and <br /> refer to the agreement. Escalate to
-                platform support if needed, considering <br />
-                mediation. Review policies, seek collaborative solutions for
-                resolution.
-              </h1>
+
+      <div className="border-2 border-orange-600">
+        <div className=" absolute h-[800px] w-100 p-10  mt-32  bg-[#E8EEE7] rounded-3xl">
+          <h1 className="covered-by-your-grace-regular text-2xl m-10 ms-10 text-gray-400">
+            What's on your mind
+          </h1>
+          <h1 className="ms-10 manrope -mt-10  text-5xl">Ask Questions</h1>
+          <div className="float-right border-2 text-lg manrope -mt-14 border-blue-400">
+            <div className=" border-2 mt-2 border-red-500">
+              <span className="">Do you offer freelancers? </span>
+              <span className="float-end">+</span>
+            </div>
+            <hr />
+            <div className="border-2 mt-2 border-red-500">
+              <span className="">
+                Whats the guarantee that I will be satisfied <br /> with the
+                hired talent?{" "}
+              </span>
+              <span className="float-end">+</span>
+            </div>
+            <hr />
+            <div className="border-2 mt-2 border-red-500">
+              <span className="">Can I hire multiple talents at once? </span>
+              <span className="float-end">-</span>
+              <br />
+              <span className="text-gray-500 font-[400]">
+                if unhappy with a project communicate with the freelancer, allow
+                for revisions,and <br /> refer to the agreement.Escalate to
+                platform support if needed,considering <br /> mediation. Review
+                policies, seek collaborative solutions for resolution
+              </span>
+            </div>
+            <hr />
+            <div className="border-2 mt-2 border-red-500">
+              <span className="">
+                Why should I not go to an agency directly{" "}
+              </span>
+              <span className="float-end">+</span>
+            </div>
+            <hr />
+            <div className="border-2 mt-2 border-red-500">
+              <span className="">
+                Who can help me pick a right skillset and duration for me{" "}
+              </span>
+              <span className="float-end">+</span>
             </div>
           </div>
-          <hr className="-ml-96" />
-          <div className="float-end ">
-            <h1 className=" -ml-96 manrope text-xl">
-              Why should I not go to an agency directly?
-            </h1>
-            <h1 className="-mt-12 ml-20">+</h1>
+          <img className="absolute ml-10 mt-10" src="Union.png" alt="" />
+          <br />
+          <div className="mt-96 h-32 relative  w-full border-2 border-violet-700">
+            <footer className=" w-full  bg-[#F5F5F5] rounded-full text-white text-center py-4 bottom-0">
+              <p className="text-black text-start mx-5 pt-4">
+                © Talup 2023. All rights reserved
+              </p>
+
+              <a className="text-black float-end  mx-3 -mt-10" href="">
+                Privacy Policy
+              </a>
+              <a className="text-black float-end mx-40 -mt-10" href="">
+                Terms & Conditions
+              </a>
+            </footer>
           </div>
-          <hr className="-ml-96" />
-          <div className="float-end ">
-            <h1 className=" -ml-96 manrope text-xl">
-              Who can help me pick a right skillset <br /> and duration for me ?
-            </h1>
-            <h1 className="-mt-12 ml-20">+</h1>
-          </div>
-          <hr className="-ml-96" />
         </div>
-        <img className="ml-10 mt-10" src="Union.png" alt="" />
       </div>
     </>
   );
