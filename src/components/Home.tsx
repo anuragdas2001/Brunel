@@ -7,12 +7,12 @@ export const Home = () => {
   return (
     <>
       <div className="flex justify-center items-center mt-10 ">
-        <h1 className="covered-by-your-grace-regular text-green-400">
+        <h1 className="covered-by-your-grace-regular text-2xl text-green-400">
           Success Stories
         </h1>
       </div>
       <div className="flex justify-center items-center">
-        <h1 className="text-6xl manrope">
+        <h1 className="text-4xl manrope">
           Every success journey <br /> we have encountered.
         </h1>
       </div>
