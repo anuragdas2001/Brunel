@@ -74,7 +74,7 @@ export const Home = () => {
               <span className="">Do you offer freelancers? </span>
               <span className="float-end">+</span>
             </div>
-            <hr />
+            <hr className="border-t border-gray-500 my-4" />
             <div className="border-2 mt-2 border-red-500">
               <span className="">
                 Whats the guarantee that I will be satisfied <br /> with the
@@ -82,7 +82,7 @@ export const Home = () => {
               </span>
               <span className="float-end">+</span>
             </div>
-            <hr />
+            <hr className="border-t border-gray-500 my-4" />
             <div className="border-2 mt-2 border-red-500">
               <span className="">Can I hire multiple talents at once? </span>
               <span className="float-end">-</span>
@@ -94,17 +94,17 @@ export const Home = () => {
                 policies, seek collaborative solutions for resolution
               </span>
             </div>
-            <hr />
+            <hr className="border-t border-gray-500 my-4" />
             <div className="border-2 mt-2 border-red-500">
               <span className="">
-                Why should I not go to an agency directly{" "}
+                Why should I not go to an agency directly?
               </span>
               <span className="float-end">+</span>
             </div>
-            <hr />
+            <hr className="border-t border-gray-500 my-4" />
             <div className="border-2 mt-2 border-red-500">
               <span className="">
-                Who can help me pick a right skillset and duration for me{" "}
+                Who can help me pick a right skillset <br /> and duration for me{" "}
               </span>
               <span className="float-end">+</span>
             </div>
