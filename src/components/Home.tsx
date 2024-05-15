@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { Footer } from "./Footer";
 export const Home = () => {
   const navigate = useNavigate();
   const handleExploreMore = () => {
