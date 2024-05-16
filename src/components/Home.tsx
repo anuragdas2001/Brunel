@@ -16,7 +16,7 @@ export const Home = () => {
           Every success journey <br /> we have encountered.
         </h1>
       </div>
-      <div className="float-end m-44 mt-20 font-extrabold  manrope">
+      <div className="float-end mr-48 mt-20 font-extrabold  manrope">
         <h1 className="text-xl">
           Enhance fortune 50 <br /> company's insights <br /> teams research{" "}
           <br /> capabilities
@@ -26,27 +26,28 @@ export const Home = () => {
           <img src="/Ellipse 10743.png" alt="" />
           <img src="/Ellipse 10743.png" alt="" />
         </div>
-        <div className="mt-10">
+        <div className="mt-14">
           <button
-            className="bg-black rounded-full text-white p-2"
+            className="bg-black rounded-full text-white p-4 w-44 flex items-center justify-center"
             onClick={handleExploreMore}
           >
-            Explore More →
+            Explore More
+            <img src="/Frame (1).png" alt="" className="ml-2" />
           </button>
         </div>
       </div>
-      <div className="ml-32">
-        <div>
+      <div className="w-full ml-0">
+        <div className="ml-10">
           <img
-            className=" h-72 w-72 rounded-3xl flex justify-center items-center ml-20 mt-10"
+            className=" h-72 w-72  rounded-3xl  flex justify-center items-center ml-20 mt-10"
             src="/image 32618.png"
             alt=""
           />
         </div>
 
-        <div className="">
+        <div className="ml-10">
           <img
-            className="absolute h-20 w-40 -mt-20 ml-7 float-left"
+            className="absolute  h-20 w-40 -mt-20 ml-7 float-left"
             src="/Frame 1261155429.png"
             alt=""
           />

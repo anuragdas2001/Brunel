@@ -13,24 +13,24 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="h-20 w-11/12 ml-12  rounded-full p-2 border-2 border-gray-300   mt-2">
+      <div className="h-16 w-11/12 ml-12  rounded-full p-1 border-2 border-gray-100 mt-2">
         <div className=" float-left  ms-3">
           <img
-            className=" m-0 h-14 w-32 p-1"
+            className=" m-0 h-14 w-32 p-2"
             src="/Frame 1261155216.png"
             alt=""
           />
         </div>
-        <div className="float-right m-0">
+        <div className="float-right -mt-1">
           {location.pathname === "/" && (
             <>
               <button
-                className="rounded-full text-xs w-36 m-2 border-2  p-3"
+                className="rounded-full text-xs w-32  border-2 h-12 p-1"
                 onClick={handleProjects}
               >
                 Get Projects
               </button>
-              <button className="rounded-full w-40 text-xs m-2 border-2  me-3 p-3 bg-black text-white">
+              <button className="rounded-full h-12 w-32 text-xs m-2 border-2  me-1 p-2 bg-black text-white">
                 Onboard Talent
               </button>
             </>
