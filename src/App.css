@@ -618,16 +618,12 @@ video {
   margin-left: -2.5rem;
 }
 
-.-ml-20 {
-  margin-left: -5rem;
-}
-
-.-ml-5 {
-  margin-left: -1.25rem;
-}
-
 .-ml-8 {
   margin-left: -2rem;
+}
+
+.-ms-10 {
+  margin-inline-start: -2.5rem;
 }
 
 .-mt-1 {
@@ -698,16 +694,8 @@ video {
   margin-inline-start: 2.5rem;
 }
 
-.ms-14 {
-  margin-inline-start: 3.5rem;
-}
-
 .ms-2 {
   margin-inline-start: 0.5rem;
-}
-
-.ms-20 {
-  margin-inline-start: 5rem;
 }
 
 .ms-24 {
@@ -746,16 +734,16 @@ video {
   margin-top: 5rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
 
 .mt-32 {
   margin-top: 8rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
 }
 
 .mt-4 {
@@ -786,24 +774,12 @@ video {
   margin-top: 24rem;
 }
 
-.-ms-5 {
-  margin-inline-start: -1.25rem;
+.ms-12 {
+  margin-inline-start: 3rem;
 }
 
-.-ms-10 {
-  margin-inline-start: -2.5rem;
-}
-
-.ms-32 {
-  margin-inline-start: 8rem;
-}
-
-.ms-28 {
-  margin-inline-start: 7rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
+.ms-20 {
+  margin-inline-start: 5rem;
 }
 
 .flex {
@@ -1023,11 +999,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1041,11 +1012,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-\[400\] {
@@ -1116,8 +1082,4 @@ video {
 .hover\:bg-\[\#F1F1F1\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 241 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[F1F1F1\]:hover {
-  background-color: F1F1F1;
 }

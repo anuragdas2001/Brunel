@@ -48,7 +48,7 @@ export const Registration = () => {
     <>
       <div className="flex justify-center align-middle items-center mt-28">
         <div className="absolute">
-          <h1 className="covered-by-your-grace-regular text-2xl text-green-500">
+          <h1 className="covered-by-your-grace-regular ms-20 text-2xl text-green-500">
             Registration Form
           </h1>
           <h1 className="manrope text-4xl">Start your success</h1>
