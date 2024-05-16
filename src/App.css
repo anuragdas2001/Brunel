@@ -794,6 +794,14 @@ video {
   margin-inline-start: -2.5rem;
 }
 
+.ms-32 {
+  margin-inline-start: 8rem;
+}
+
+.ms-28 {
+  margin-inline-start: 7rem;
+}
+
 .flex {
   display: flex;
 }

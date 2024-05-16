@@ -46,9 +46,9 @@ export const Registration = () => {
 
   return (
     <>
-      <div className="flex justify-center align-middle items-center mt-36">
+      <div className="flex justify-center align-middle items-center mt-32">
         <div className="absolute">
-          <h1 className="covered-by-your-grace-regular ms-20 text-3xl text-green-500">
+          <h1 className="covered-by-your-grace-regular ms-24 text-2xl text-green-500">
             Registration Form
           </h1>
           <h1 className="manrope">Start your success</h1>
