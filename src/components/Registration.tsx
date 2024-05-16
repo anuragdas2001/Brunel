@@ -52,7 +52,7 @@ export const Registration = () => {
             Registration Form
           </h1>
           <h1 className="manrope text-4xl">Start your success</h1>
-          <h1 className="ms-5 manrope"> Journey here!</h1>
+          <h1 className="ms-5 manrope text-4xl"> Journey here!</h1>
         </div>
         <div className="absolute flex justify-center align-middle items-center mt-52">
           <form onSubmit={handleSubmit} className="absolute mt-32">
