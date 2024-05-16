@@ -802,6 +802,10 @@ video {
   margin-inline-start: 7rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .flex {
   display: flex;
 }

@@ -46,24 +46,24 @@ export const Registration = () => {
 
   return (
     <>
-      <div className="flex justify-center align-middle items-center mt-32">
+      <div className="flex justify-center align-middle items-center mt-28">
         <div className="absolute">
-          <h1 className="covered-by-your-grace-regular ms-24 text-2xl text-green-500">
+          <h1 className="covered-by-your-grace-regular text-2xl text-green-500">
             Registration Form
           </h1>
-          <h1 className="manrope">Start your success</h1>
+          <h1 className="manrope text-4xl">Start your success</h1>
           <h1 className="ms-5 manrope"> Journey here!</h1>
         </div>
         <div className="absolute flex justify-center align-middle items-center mt-52">
-          <form onSubmit={handleSubmit} className="absolute mt-40">
+          <form onSubmit={handleSubmit} className="absolute mt-32">
             <input
               type="text"
               placeholder="Enter your name"
-              className="p-2 border-2 mt-20 rounded-3xl bg-[#EFEFEF]"
+              className="p-2 border-2 mt-10 rounded-3xl bg-[#EFEFEF]"
               value={name}
               onChange={handleNameChange}
             />
-            <br />
+            {/* <br /> */}
             <input
               type="text"
               placeholder="Enter your email"
@@ -81,7 +81,6 @@ export const Registration = () => {
                 </>
               )}
             </div>
-            <br />
             <button
               type="submit"
               className={`h-10 w-64 ms-2 rounded-full p-2 border-2 bg-black text-white mt-4 ${
