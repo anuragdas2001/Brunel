@@ -19,8 +19,8 @@ export const Explore = () => {
           </button>
         </div>
         <div className="absolute mt-72">
-          <h1 className="mt-80">Carousal</h1>
-          <div className="flex gap-1 p-1 mt-2  ms-14">
+          <h1 className="mt-80 text-3xl">Carousal</h1>
+          <div className="flex gap-1  p-1 mt-2 ms-5">
             <img src="/Ellipse 10742.png" alt="" />
             <img src="/Ellipse 10743.png" alt="" />
             <img src="/Ellipse 10743.png" alt="" />
