@@ -7,7 +7,7 @@ export const Registration = () => {
   const [emailError, setEmailError] = useState("");
   const navigate = useNavigate();
   // Function to handle input change for name
-  const handleNameChange = (event:any) => {
+  const handleNameChange = (event: any) => {
     const newName = event.target.value;
     setName(newName);
     // Check if both name and email are not empty to enable submit button
@@ -15,7 +15,7 @@ export const Registration = () => {
   };
 
   // Function to handle input change for email
-  const handleEmailChange = (event:any) => {
+  const handleEmailChange = (event: any) => {
     const newEmail = event.target.value;
     setEmail(newEmail);
     // Check email format and set error message if invalid
@@ -31,30 +31,21 @@ export const Registration = () => {
   };
 
   // Function to validate email format
-  const validateEmail = (email:string) => {
+  const validateEmail = (email: string) => {
     // Regular expression for email validation
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
 
   // Function to handle form submission
-  const handleSubmit = (event:any) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     // Handle form submission logic here
     navigate("/registration/success");
   };
 
-  const handleClose = () => {
-    navigate("/");
-  };
-  
   return (
     <>
-      {/* <div className="float-end mr-12 -mt-14 ">
-        <button onClick={handleClose}>
-          <img src="/Frame 1261155540.png" alt="" />
-        </button>
-      </div> */}
       <div className="flex justify-center align-middle items-center mt-36">
         <div className="absolute">
           <h1 className="covered-by-your-grace-regular ms-20 text-green-500">
