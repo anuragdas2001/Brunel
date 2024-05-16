@@ -47,14 +47,14 @@ export const Registration = () => {
   const handleClose = () => {
     navigate("/");
   };
-
+  
   return (
     <>
-      <div className="float-end mr-10">
+      {/* <div className="float-end mr-12 -mt-14 ">
         <button onClick={handleClose}>
           <img src="/Frame 1261155540.png" alt="" />
         </button>
-      </div>
+      </div> */}
       <div className="flex justify-center align-middle items-center mt-36">
         <div className="absolute">
           <h1 className="covered-by-your-grace-regular ms-20 text-green-500">

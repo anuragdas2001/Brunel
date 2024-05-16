@@ -794,6 +794,18 @@ video {
   margin-inline-end: 0.5rem;
 }
 
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.-ml-5 {
+  margin-left: -1.25rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -943,6 +955,11 @@ video {
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-\[\#E8EEE7\] {

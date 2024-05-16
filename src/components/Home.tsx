@@ -13,7 +13,7 @@ export const Home = () => {
       </div>
       <div className="flex justify-center items-center">
         <h1 className="text-4xl manrope">
-          Every success journey <br /> we have encountered.
+          Every success journey <br /> we've encountered.
         </h1>
       </div>
       <div className="float-end mr-48 mt-20 font-extrabold  manrope">
